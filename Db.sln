@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Db", "Db\Db.csproj", "{04A50C0A-D10C-4C44-953F-C6C2FBCE83CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Db.Storage", "Db.Storage\Db.Storage.csproj", "{692745AA-24B2-4B36-B276-526C26103907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Db.Storage.MS_SQL", "Db.Storage.MS_SQL\Db.Storage.MS_SQL.csproj", "{BA3242FE-D0D7-4DEE-9459-577C8F3B8672}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04A50C0A-D10C-4C44-953F-C6C2FBCE83CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A50C0A-D10C-4C44-953F-C6C2FBCE83CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A50C0A-D10C-4C44-953F-C6C2FBCE83CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A50C0A-D10C-4C44-953F-C6C2FBCE83CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692745AA-24B2-4B36-B276-526C26103907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692745AA-24B2-4B36-B276-526C26103907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692745AA-24B2-4B36-B276-526C26103907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692745AA-24B2-4B36-B276-526C26103907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3242FE-D0D7-4DEE-9459-577C8F3B8672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3242FE-D0D7-4DEE-9459-577C8F3B8672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3242FE-D0D7-4DEE-9459-577C8F3B8672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3242FE-D0D7-4DEE-9459-577C8F3B8672}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F93BB47F-1918-45C9-8D92-192CEE4B28C1}
+	EndGlobalSection
+EndGlobal
