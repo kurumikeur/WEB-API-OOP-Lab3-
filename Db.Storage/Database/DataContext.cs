@@ -16,6 +16,7 @@ public class DataContext : DbContext
     }
     public virtual DbSet<Center> Centers { get; set; }
 
-    public virtual DbSet<User> Users { get; set; }
+    public virtual DbSet<Client> Users { get; set; }
 
 }
+
