@@ -5,9 +5,11 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Db.Storage.Models;
 
+[Index(nameof(IsnCenter))]
 public class Tutor
 {
     [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
@@ -31,7 +33,10 @@ public class Tutor
     [Required, MinLength(255)]
     public string Price { get; set; }
 
-    public virtual ICollection<Client> Clients { get; set; }
+    [InverseProperty(nameof(TutorClient.Tutor))]
+    public virtual ICollection<TutorClient> TutorClients { get; set; }
 
-    public virtual Center Center { get; set; }
+    [InverseProperty(nameof(TutorClient.Tutor))]
+    public virtual ICollection<CenterTutor> TutorCenters { get; set; } 
+
 }

@@ -21,6 +21,6 @@ public class Center
     [InverseProperty(nameof(Client.Center))]
     public virtual ICollection<Client> Clients { get; set; }
 
-    [InverseProperty(nameof(Tutor.Center))]
-    public virtual ICollection<Tutor> Tutors { get; set; }
+    [InverseProperty(nameof(CenterTutor.Center))]
+    public virtual ICollection<CenterTutor> CenterTutors { get; set; }
 }

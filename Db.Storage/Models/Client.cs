@@ -30,7 +30,8 @@ public class Client
     [Required, MaxLength(255)]
     public string Age { get; set; }
 
-    public virtual ICollection<Tutor> Tutors { get; set; }
+    [InverseProperty(nameof(TutorClient.Client))]
+    public virtual ICollection<TutorClient> ClientTutors { get; set; }
 
     public virtual Center Center { get; set; }
 }
